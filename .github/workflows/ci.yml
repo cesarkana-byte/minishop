@@ -43,7 +43,7 @@ jobs:
           mvn sonar:sonar
           --no-transfer-progress
           -Dsonar.projectKey=cesarkana-byte_minishop
-          -Dsonar.organization=${{ secrets.SONAR_ORG }}
+          -Dsonar.organization=cesarkana-byte
 
       - name: 7 - Publicar reporte de pruebas
         uses: actions/upload-artifact@v4
