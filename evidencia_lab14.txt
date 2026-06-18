@@ -1,0 +1,9 @@
+﻿Paso 1.3 - Entender la configuracion de JaCoCo
+
+prepare-agent: instrumenta el codigo para registrar que lineas se ejecutan durante las pruebas.
+
+report: genera el reporte HTML de cobertura en target/site/jacoco/index.html.
+
+check: hace fallar el build si la cobertura de lineas es menor al minimo configurado.
+
+minimum 0.70: indica que la cobertura minima requerida es del 70%.
